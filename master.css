@@ -6,13 +6,13 @@ body
 	background-image:url(Background.jpg);
 	background-position:center;
 	background-size:cover;
+	background-attachment:fixed;
 	background-repeat:no-repeat;
+	max-height:auto;
+	max-width:auto;
 	position:relative;
-	max-height:100%;
-	max-width:100%;
 	text-align:center;
-	margin-top:360px;
-	margin-bottom:360px;
+	margin-top:300px;
 }
 
 h1
