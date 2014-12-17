@@ -1,15 +1,18 @@
 <html>
 <body>
 <title>Thank you</title>
-    <form action="http://165.248.210.96/mauicounty/Login.html">
+    <form action="http://165.248.210.96/mauicounty/index.html">
     <input type="submit" value="Go to log in">
                                     </form>                                            
   <?php
 
- $name = $_POST["Name"];
+ $firstname = $_POST["First Name"];
+ $lastname = $_POST["Last Name"];
  $title = $_POST["Title"];
+ $onbehalf = $_POST["onbehalf"];
+ $aitem = $_POST["aitem"];
 
-$list = array(array(($name,$title));
+$list = array(array($firstname, $lastname, $title, $onbehalf, $aitem));
 
 $fp = fopen("list.csv","a");
 $fpd = fopen("dlist.csv","a");
