@@ -6,9 +6,9 @@
                                     </form>                                            
   <?php
 
- $firstname = $_POST["First Name"];
- $lastname = $_POST["Last Name"];
- $title = $_POST["Title"];
+ $firstname = $_POST["firstname"];
+ $lastname = $_POST["lastname"];
+ $title = $_POST["title"];
  $onbehalf = $_POST["onbehalf"];
  $aitem = $_POST["aitem"];
 
