@@ -8,10 +8,20 @@ body
 	background-size:cover;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
+	
+}
+
+.all
+{
 	max-height:auto;
 	max-width:auto;
-	position:relative;
-	margin-top:15%;
+	width:50%;
+	height:50%;
+	overflow:auto;
+	margin:auto;
+	position:absolute;
+	top:0; left:0; bottom:0; right:0;
+	vertical-align:middle;
 	text-align:center;
 }
 
