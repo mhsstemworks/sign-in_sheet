@@ -9,10 +9,12 @@
  $firstname = $_POST["firstname"];
  $lastname = $_POST["lastname"];
  $title = $_POST["title"];
+ $email = $_POST["email"];
+ $phonenumber = $_POST["phonenumber"];
  $onbehalf = $_POST["onbehalf"];
  $aitem = $_POST["aitem"];
 
-$list = array(array($firstname, $lastname, $title, $onbehalf, $aitem));
+$list = array(array($firstname, $lastname, $title, $email, $phonenumber, $onbehalf, $aitem));
 
 $fp = fopen("list.csv","a");
 $fpd = fopen("dlist.csv","a");
