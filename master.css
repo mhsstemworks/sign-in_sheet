@@ -3,6 +3,7 @@
 
 body
 {
+	
 	background-image:url(Resources/Background.jpg);
 	background-position:center;
 	background-size:cover;
@@ -56,6 +57,8 @@ inputs-moz-placeholder
 
 .inputs 
 {
+	-webkit-transition:box-shadow 1s;
+	-moz-transition:box-shadow 1s;
     background: #f5f5f5;
     font-size: 0.8rem;
     -moz-border-radius: 3px;
@@ -71,6 +74,8 @@ inputs-moz-placeholder
 
 .inputs:focus 
 {
+	-webkit-transition:box-shadow 1s;
+	-moz-transition:box-shadow 1s;
     background: #ffffff;
     box-shadow: 0 0 0 3px #7fffd4, inset 0 2px 3px rgba( 0, 0, 0, 0.2 ), 0px 5px 5px rgba( 0, 0, 0, 0.15 );
     outline: none;
@@ -78,6 +83,8 @@ inputs-moz-placeholder
 
 .button 
 {
+	-webkit-transition:background-color 1s;
+	-moz-transition:background-color 1s;
 	-moz-box-shadow: 9px 10px 14px -7px #276873;
 	-webkit-box-shadow: 8px 10px 14px -7px #276873;
 	box-shadow: 8px 10px 14px -7px #276873;
@@ -91,11 +98,11 @@ inputs-moz-placeholder
 	font-family:"Times New Roman", Times, serif;
 	font-size:20px;
 	padding:8px 36px;
-	text-decoration:none;
-	text-shadow:1px 1px 1px #3d768a;
 }
 .button:hover 
 {
+	-webkit-transition:background-color 1s;
+	-moz-transition:background-color 1s;
 	background-color:#006B6B;
 }
 .button:active 
