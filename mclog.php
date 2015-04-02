@@ -2,8 +2,9 @@
 <body>
 <title>Thank you</title>
     <form action="http://165.248.210.96/mauicounty/index.html">
-    <input type="submit" value="Go to log in">
-                                    </form>                                            
+    <input type="submit" value="Go to sign-in">
+                                    </form>
+                                           
   <?php
 
  $firstname = $_POST["firstname"];
