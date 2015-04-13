@@ -17,8 +17,10 @@ body
 
 .table
 {
+	background-color:#CCCCCC;
+	padding:1%;
 	position:relative;
-	margin:2.5% 2.5%;
+	margin:2.5%;
 	width: 50%;
 	
 }
@@ -38,11 +40,11 @@ body
 	
 	/* Centering everything */
 	position: absolute;
-	left: 90%; top: 75%;
+	left: 87.5%; top: 74.75%;
 	margin-left: -125px; margin-top: -50px;
 	
 	text-align: center;
-	line-height: normal;
+	line-height: 50px;
 	
 	background-image: linear-gradient(#f0f0f0, white);
 }
@@ -62,7 +64,7 @@ body
 	
 	/* Centering everything */
 	position: absolute;
-	left: 90%; top: 80%;
+	left: 87.5%; top: 80%;
 	margin-left: -125px; margin-top: -50px;
 	
 	text-align: center;
@@ -72,5 +74,4 @@ body
 	background-image: linear-gradient(#f0f0f0, white);
 	
 }
-
 

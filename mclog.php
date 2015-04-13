@@ -1,8 +1,8 @@
 <html>
 <body>
-<title>Thank you</title>
-    <form action="http://165.248.210.96/mauicounty/index.html">
-    <input type="submit" value="Go to sign-in">
+
+    <meta http-equiv="refresh" content="0 ; http://165.248.210.100/Login.html"> 
+   
                                     </form>
                                            
   <?php
@@ -18,20 +18,27 @@
 $list = array(array($firstname, $lastname, $title, $email, $phonenumber, $onbehalf, $aitem));
 
 $fp = fopen("list.csv","a");
-$fpd = fopen("dlist.csv","a");
+
               
 foreach ($list as $fields)
   {
   fputcsv($fp,$fields);
   }
-foreach ($list as $fields)
+
+fclose($fp);
+
+$dlist = array(array($firstname, $lastname, $aitem));
+
+$dfd = fopen("dlist.csv","a");
+
+foreach ($dlist as $fields)
   {
-  fputcsv($fpd,$fields);
+  fputcsv($dfd,$fields);
   }
 
               
 fclose($dfp); 
-fclose($fp); ?>
+ ?>
     
     
 </body>
