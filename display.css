@@ -15,14 +15,41 @@ body
 	font-weight:lighter;
 }
 
+table {
+	margin:0 0 5% 0;
+}
+
+table, th, td {
+	width: 100%;
+    border: 2px solid #00CC00;;
+    border-collapse: collapse;
+}
+th, td {
+	height: 20px;
+    padding: 5px;
+    text-align: left;
+    vertical-align: bottom;    
+}
+
+th {
+	background-color:#00CC00;
+	color:#EEEEEE;
+}
+
+td {
+	background-color:#EEEEEE;
+}
+
 .table
 {
+	min-height:87.5%;
+	width:50%;
 	background-color:#CCCCCC;
-	padding:1%;
-	position:relative;
+	background-size:contain;
+	padding:2.5%;
+	position:fixed;
 	margin:2.5%;
-	width: 50%;
-	
+	box-shadow: 5px 5px 7.5px #424242;
 }
 
 .date
@@ -62,7 +89,6 @@ body
 	font-size: 3.5em;
 	color: #707070;
 	
-	/* Centering everything */
 	position: absolute;
 	left: 87.5%; top: 80%;
 	margin-left: -125px; margin-top: -50px;
@@ -70,8 +96,43 @@ body
 	text-align: center;
 	line-height: 100px;
 	
-	border-top: 5px solid #01DFD7;
+	border-top: 5px solid #00CC00;
 	background-image: linear-gradient(#f0f0f0, white);
 	
 }
 
+.button1
+{
+	border: 2px solid #00CC00;
+	border-radius: 20px;
+	text-align:center;
+    padding: 2px; 
+	margin:5px;
+    width: 100px;
+    height: 25px;
+	-webkit-transition: background-color 1.5s;
+    transition: background-color 1.5s;
+}
+
+.button1:hover
+{
+	background-color:#66FF00;
+}
+
+.button2
+{
+	border: 2px solid #32CD32;
+	border-radius: 20px;
+	text-align:center;
+    padding: 2px; 
+	margin:5px;
+    width: 100px;
+    height: 25px;
+	-webkit-transition: background-color 1.5s;
+    transition: background-color 1.5s;
+}
+
+.button2:hover
+{
+	background-color:#FF0000;
+}
